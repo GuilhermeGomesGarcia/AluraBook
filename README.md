@@ -33,8 +33,7 @@ A navegação tá intuitiva e completa, como uma livraria de verdade deve ser:
 
 Quer dar uma olhada no código na sua máquina? É moleza\!
 
-1.  **Abra o site `(https://guilhermegomesgarcia.github.io/AluraBook/)`** no seu navegador de preferência.
-2.  **Abra o arquivo `index.html`** no seu navegador de preferência.
+1.  **Abra o site `([https://guilhermegomesgarcia.github.io/AluraBook/](https://alura-book-git-main-guilhermegomesgarcias-projects.vercel.app/))`** no seu navegador de preferência.
 
 Pronto\! É só navegar e conferir cada detalhe do projeto.
 

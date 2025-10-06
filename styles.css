@@ -1,0 +1,41 @@
+@import url(styles/reset.css);
+@import url(styles/header.css);
+@import url(styles/banner.css);
+@import url(styles/carrosel.css);
+@import url(styles/topicos.css);
+@import url(styles/contato.css);
+@import url(styles/footer.css);
+
+
+:root{
+    /* CORES */
+
+    --cor-preta: #000000;
+    --cor-preta-85: rgba(0, 0, 0, 0.85);
+    --cor-sombra: rgba(0, 0, 0, 0.25);
+    --cor-branca: #FFFFFF;
+    --cor-branca-apagada: #F9F9F9;
+    --cor-fundo: #EBECEE;
+    --cor-cinza: #C4C4C4;
+    --cor-cinzatxt: #474646;
+    --cor-cinza-escuro: #858585;
+    --cor-laranja: #EB9B00;
+    --cor-laranja-claro: #f9cf7a8f;
+    -cor--amarela: #FECD2F;
+    -cor-dourada: #FFBA00;
+    --cor-azul: #002F52;
+    --cor-azul-claro: #92cbf38a;
+    --cor-gradiante-azul: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
+    --cor-gradiante-laranja: linear-gradient(90deg, #FD8325 0%, #FC6621 100%);
+    
+    /* FONTES */
+    --fonte-principal: "Poppins";
+    --fonte-secundaria: "Josefin Sans";
+
+}
+
+.body{
+    background-color: var(--cor-fundo);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+}

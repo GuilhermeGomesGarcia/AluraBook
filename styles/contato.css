@@ -1,0 +1,115 @@
+.contato{
+    background-color: var(--cor-branca);
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+}
+
+.contato__texto, .contato__titulo, .formulario__campo{
+    background: var(--cor-gradiante-azul);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+
+.contato__titulo{
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 27px;
+    text-align: left;
+}
+
+.contato__texto{
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 22px;
+    text-align: left;
+    margin: 1em 0;
+}
+
+.formulario__campo-email, .formulario__campo-nome{
+    border: 1px solid var(--cor-azul);
+    border-radius: 24px;
+    padding: 1em;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 10px;
+    width: 90%;
+    text-align: left;
+    color: var(--cor-azul);
+}
+
+.formulario__campo-email::placeholder{
+    color: var(--cor-azul);
+    font-family: var(--fonte-principal);
+    background: url(../assets/img/Email.svg) no-repeat;
+    padding-left: 2.5em;
+}
+
+.formulario__campo-nome::placeholder{
+    color: var(--cor-azul);
+    font-family: var(--fonte-principal);
+    background: url(../assets/img/Usuario.svg) no-repeat;
+    padding-left: 2.5em;
+}
+
+.formulario__campo-email:focus, .formulario__campo-nome:focus{
+    outline: none;
+    box-shadow: 0px 10px 10px var(--cor-sombra);
+}
+
+.formulario__botao{
+    background: var(--cor-gradiante-azul);
+    border-radius: 24px;
+    color: var(--cor-branca);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    padding: 1em 2em;
+    border: none;
+    width: 100%;
+    cursor: pointer;
+    transition: 0.7s;
+    text-align: center;
+}
+
+@media screen and (min-width: 1024px){
+    .contato{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 2em 4em;
+        gap: 2em;
+        
+    }
+
+    .contato__titulo{
+        font-size: 32px;
+        line-height: 36px;
+    }
+
+    .contato__texto{
+        font-size: 20px;
+    }
+
+    .contato__formulario{
+        width: 60%;
+    }
+
+    .formulario__botao{
+        width: 98%;
+    }
+}
+
+@media screen and (min-width: 1728px){
+    .contato{
+        padding: 2em 20vw;
+    }
+    
+    .formulario__botao{
+        width: 96%;
+    }
+}
